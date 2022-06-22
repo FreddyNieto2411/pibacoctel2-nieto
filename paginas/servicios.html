@@ -2,48 +2,93 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="servicios de barra movil, bartender, diseño y confeccion de carta y capacitacion de personal de gastronomico">
+    <meta name="keywords" content="barra movil bartender diseño confeccion carta capacitacion">
     <title>Piba Coctel</title>
     <link rel="stylesheet" href="../css/estilos.css">
 </head>
 <body>
+    
+    <!--NAVBAR-->
     <header>
-        <div class="container">
-            <p class="logo">Piba Coctel</p>
-            <nav>
-                <a href="../index.html">Home</a>
-                <a href="./acercademi.html">Acecar de mi</a>
-                <a href="./cursosytalleres.html">Cursos y talleres</a>
-                <a href="./servicios.html">Servicios</a>
-                <a href="./contacto.html">Contacto</a>   
-            </nav>
-        </div>
+        <nav class="navbar navbar-expand-sm">
+            <div class="container-fluid">
+                <a class="navbar-brand"><img class="logo" src="../media/Logo-piba negro (2).png" alt="pibacoctel"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active" aria-current="page" href="../Index.html">Home</a>
+                  <a class="nav-link" href="./acercademi.html">Acerca de mi</a>
+                  <a class="nav-link" href="./cursosytalleres.html">Cursos y talleres</a>
+                  <a class="nav-link" href="./servicios.html">Servicios</a>
+                  <a class="nav-link" href="./contacto.html">Contacto</a>
+                </div>
+              </div>
+            </div>
+          </nav>
     </header>
 
 
-    <section id="servicios">
-        <div class="container">
-            <ul>
-                <li>🍸Barra movil full</li>
-                <li>🍸Servicio de bartender</li>
-                <li>🍸Diseño y confeccion de carta</li>
-                <li>🍸Capacitacion de personal</li>
-            </ul>
-        </div>    
-    </section>
-
-
-    <section id="hero2">
-        <h2>Tenes todo para tu proximo evento?</h2>
-        <button>Escribenos Ya!</button>
-    </section>
-
-
-    <footer>
-        <div class="container">
-            <p>&copy;Piba Coctel 2022</p>
+    <!--SERVICIOS-->  
+<section class="d-flex flex-column justify-content-center align-items-center pt-2  text-center w-50 m-auto" id="intro">
+    <h1 class="p-1  fs-4">EN PIBA COCTEL TENEMOS ESTOS SERVICIOS PARA VOS</h1>
+  </section>
+  
+  
+  
+  <section class="w-100">
+  <div class="row w-75 mx-auto" id="servicios-fila-1">       
+    <div class="col-lg-6 col-sm-12 d-flex my-5 icono-wrap">
+        <img src="../media/IMG_20200525_073745_587.jpg" alt="desarrollo"   width="280" height="260">
+  
+        <div>
+            <h3 class="fs-5 mt-4 px-4 pb-1">BARRA MOVIL</h3>
+            <p class="px-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, consectetur consequuntur! Consectetur quibusdam perspiciatis quae.</p>
         </div>
-    </footer>
+  
+    </div>
+  
+    <div class="col-lg-6 col-sm-12 d-flex  my-5 icono-wrap">
+        <img src="../media/IMG_20200601_141133_695.jpg" alt="concepto" width="280" height="260">
+  
+        <div>
+            <h3 class="fs-5 mt-4 px-4 pb-1 icono-wrap">SERVICIO DE BARTENDER</h3>
+            <p class="px-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel vitae corporis suscipit, quibusdam maiores nostrum.</p>
+        </div>
+    </div>   
+  </div>
+  
+  <div class="row w-75 mx-auto mb-5" id="servicios-fila-2">       
+    <div class="col-lg-6 col-sm-12 d-flex  my-5 icono-wrap">
+        <img src="../media/018.jpg" alt="comunicaciones" width="280" height="260">
+  
+        <div>
+            <h3 class="fs-5 mt-4 px-4 pb-1">DISEÑO Y CONFECCION DE CARTA</h3>
+            <p class="px-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto, numquam. Iure unde corporis id earum.</p>
+        </div>
+    </div>
+  
+    <div class="col-lg-6 col-sm-12 d-flex my-5 icono-wrap">
+        <img src="../media/IMG_20200525_073745_587.jpg" alt="seo" width="280" height="260">
+  
+        <div>
+            <h3 class="fs-5 mt-4 px-4 pb-1">CAPACITACION DE PERSONAL</h3>
+            <p class="px-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo consequuntur similique accusantium velit recusandae modi.</p>
+        </div>
+    </div>   
+  </div>
+  </section>
+
+
+    <!--FOOTER-->
+<footer class="w-100  d-flex  align-items-center justify-content-center flex-wrap ">
+    <p class="fs-5 px-3  pt-3">Piba coctel &copy; Todos Los Derechos Reservados 2020</p>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
 </body>
 </html>

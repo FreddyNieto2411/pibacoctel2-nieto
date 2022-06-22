@@ -2,56 +2,55 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <meta name="description" content="cursos y talleres para aprender sobre cocteles crear recetas y destilacion de licores">
+    <meta name="keywords" content="talleres cursos cocteria destilacion recetas maridaje">
     <title>Piba Coctel</title>
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/estilos.css">
 </head>
 <body>
-   <!--NAVBAR-->
-
-  <nav class="navbar navbar-expand-sm navbar-dark bg-danger" id="navbar">
-    <div class="container-fluid">
-        <a class="navbar-brand " href="#">
-            <img src="../media/Logo-piba negro.png" alt="" width="100">
-        </a>
-        
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        
-        <div class="collapse navbar-collapse justify-content-end " id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item"><a class="nav-link active" aria-current="page" href="../index.html">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Acerca de mi</a></li>
-                <li class="nav-item"><a class="nav-link" href="./paginas/cursosytalleres.html">Cursos y talleres</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Servicios</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
-            </ul>
-        </div>
-    </div>
-  </nav>
+    
+    <!--NAVBAR-->
+    <header>
+        <nav class="navbar navbar-expand-sm">
+            <div class="container-fluid">
+                <a class="navbar-brand"><img class="logo" src="../media/Logo-piba negro (2).png" alt="pibacoctel"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active" aria-current="page" href="../Index.html">Home</a>
+                  <a class="nav-link" href="./acercademi.html">Acerca de mi</a>
+                  <a class="nav-link" href="./cursosytalleres.html">Cursos y talleres</a>
+                  <a class="nav-link" href="./servicios.html">Servicios</a>
+                  <a class="nav-link" href="./contacto.html">Contacto</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+    </header>
 
   <!--CURSOS Y TALLERES-->
 
     <section id="cursosytalleres">
         <div class="container">
-             <h2>Cursos y talleres</h2>
+             <h2>CURSOS Y TALLERES</h2>
              <div class="talleres">
-                <div class="taller">
-                     <h3>Cocteleria para anfitriones</h3>
+                <div class="taller textocyt">
+                     <h3>COCTELERIA PARA ANFITRIONES</h3>
                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus beatae fugiat, modi officiis accusantium natus distinctio magni soluta dignissimos nulla culpa, consequatur facilis repellendus esse at, blanditiis saepe mollitia adipisci.</p>
                      <button>Consultar Fechas</button>
                 </div>
-                <div class="taller">
-                    <h3>Destilado de Gin y cocteles</h3>
+                <div class="taller textocyt">
+                    <h3>DESTILADO DE GIN Y COCTELES</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus beatae fugiat, modi officiis accusantium natus distinctio magni soluta dignissimos nulla culpa, consequatur facilis repellendus esse at, blanditiis saepe mollitia adipisci.</p>
                     <button>Consultar Fechas</button>
                 </div>
-                <div class="taller">
-                    <h3>A,B,C de un coctel</h3>
+                <div class="taller textocyt">
+                    <h3>A,B,C DE UN COCTEL</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus beatae fugiat, modi officiis accusantium natus distinctio magni soluta dignissimos nulla culpa, consequatur facilis repellendus esse at, blanditiis saepe mollitia adipisci.</p>
                     <button>Consultar Fechas</button>
                 </div>
@@ -59,12 +58,11 @@
         </div>
     </section>
 
-    <!--FOOTER-->
+   <!--FOOTER-->
 
-    <footer class="w-100  d-flex  align-items-center justify-content-center flex-wrap bg-danger">
-        <p class="fs-5 px-3  pt-3">Piba coctel &copy; Todos Los Derechos Reservados 2020</p>
-    </footer> 
-    <script src="js/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>    
+<footer class="w-100  d-flex  align-items-center justify-content-center flex-wrap ">
+    <p class="fs-5 px-3  pt-3">Piba coctel &copy; Todos Los Derechos Reservados 2020</p>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
 </body>
 </html>
